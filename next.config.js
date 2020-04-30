@@ -10,5 +10,7 @@ module.exports = withPlugins([
     ],
     {
         assetPrefix: "/",
+        distDir: "build",
     },
+    {},
 ]);
