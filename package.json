@@ -1,0 +1,31 @@
+{
+    "name": "podcast-player",
+    "version": "0.1.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && echo $null >> out/.nojekyll && gh-pages -d out -t true"
+    },
+    "dependencies": {
+        "@apollo/react-hooks": "^3.1.4",
+        "@material-ui/core": "^4.9.8",
+        "@material-ui/lab": "^4.0.0-alpha.47",
+        "classnames": "^2.2.6",
+        "imagemin-mozjpeg": "^8.0.0",
+        "next": "9.3.4",
+        "next-compose-plugins": "^2.2.0",
+        "next-optimized-images": "^2.5.7",
+        "node-fetch": "^2.6.0",
+        "normalize.css": "^8.0.1",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-helmet": "^6.0.0",
+        "react-waypoint": "^9.0.2",
+        "styled-components": "^5.0.1",
+        "use-ssr": "^1.0.23"
+    },
+    "devDependencies": {
+        "babel-plugin-styled-components": "^1.10.7"
+    }
+}
