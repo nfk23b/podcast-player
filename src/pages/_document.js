@@ -50,6 +50,11 @@ export default class MyDocument extends Document {
                         name="theme-color"
                         content={theme.palette.primary.main}
                     />
+                    <meta name="keywords" content="Podcast player" />
+                    <meta
+                        name="description"
+                        content="Podcast player description blah blah"
+                    ></meta>
                     <link
                         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
                         rel="stylesheet"
